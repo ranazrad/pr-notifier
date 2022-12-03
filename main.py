@@ -50,9 +50,9 @@ def printPRs(state):
 
     return body
 
-mailFrom = "pr.notifier@sailpoint.com"
-mailTo = "scrum.master@sailpoint.com"
-mailSubject = "Past 7 days PRs - SailPoint Repos"
+mailFrom = "pr.notifier@sp.com"
+mailTo = "scrum.master@sp.com"
+mailSubject = "Past 7 days PRs - SP Repos"
 mailBody = printPRs('open')
 mailBody += printPRs('closed')
 
