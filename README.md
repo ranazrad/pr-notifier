@@ -1,3 +1,3 @@
 ## pr-notifier
-Print out all PRs in the last 7 days usign Github API
+Printing out all PRs in the last 7 days using Github API
 
