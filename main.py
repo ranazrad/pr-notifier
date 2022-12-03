@@ -34,6 +34,7 @@ def printPRs(state):
             body += "Author: " + str(pr["user"]["login"]) + "\n"
             body += "From branch: " + str(pr["head"]["ref"]) + "\n"
             body += "Into branch: " + str(pr["base"]["ref"]) + "\n"
+            body += "Date: " + str(pr[stateTime]) + "\n"
             body += "Title: " + str(pr["title"]) + "\n"
             body += "Description: " + str(pr["body"]) + "\n"
             body += "\n\n\n"
