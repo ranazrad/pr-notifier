@@ -10,8 +10,6 @@ from datetime import datetime , timedelta
 
 owner = str(os.environ.get('OWNER'))
 repository = str(os.environ.get('REPOSITORY'))
-print(owner)
-print(repository)
 
 def printPRs(state):
     body = ""
