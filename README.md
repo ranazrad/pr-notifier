@@ -1,7 +1,7 @@
 ## pr-notifier
 Printing out all PRs in the last 7 days using Github API
 
-## Executing script
+## Executing script instructions
 1. Clone the repo:  
   **<code>git clone https://github.com/ranazrad/pr-notifier.git</code>**  
 2. Change directory to pr-notifier:  
