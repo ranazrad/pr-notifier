@@ -1,3 +1,4 @@
+import os
 import requests
 from datetime import datetime , timedelta
 
@@ -7,8 +8,8 @@ from datetime import datetime , timedelta
 # Default PR state: open
 # We need only open , closed
 
-owner = "ranazrad"
-repository = "pr-notifier"
+owner = os.environ.get('OWNER')
+repository = os.environ.get('REPOSITORY')
 
 def printPRs(state):
     body = ""
