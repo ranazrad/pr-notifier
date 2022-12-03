@@ -10,7 +10,7 @@ Set your target repo owner and repository name in the .env file
   **<code>git clone https://github.com/ranazrad/pr-notifier.git</code>**  
 2. Change directory to pr-notifier:  
   **<code>cd pr-notifier</code>**  
-3. Override the variables in .env file:  
+3. Override the variables in .env file to the desired Repo:  
   **<code>OWNER=</code>**  
   **<code>REPOSITORY=</code>**  
 4. Build the docker file:  
