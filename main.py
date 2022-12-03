@@ -8,8 +8,10 @@ from datetime import datetime , timedelta
 # Default PR state: open
 # We need only open , closed
 
-owner = os.environ.get('OWNER')
-repository = os.environ.get('REPOSITORY')
+owner = str(os.environ.get('OWNER'))
+repository = str(os.environ.get('REPOSITORY'))
+print(owner)
+print(repository)
 
 def printPRs(state):
     body = ""
