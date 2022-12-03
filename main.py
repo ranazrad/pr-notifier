@@ -28,7 +28,7 @@ def printPRs(state):
         isLastSevenDaysPR = datetime.now() - prCreatedTime < timedelta(days=7)
         if(isLastSevenDaysPR):
             prsCount += 1
-            body += "============PR id: " + str(pr["number"]) + "============\n"
+            body += "============PR #" + str(pr["number"]) + "============\n"
             body += "ID: " + str(pr["id"]) + "\n"
             body += "URL: " + str(pr["url"]) + "\n"
             body += "Author: " + str(pr["user"]["login"]) + "\n"
